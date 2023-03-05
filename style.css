@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Roboto:wght@300;400;900&display=swap');
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+header{
+    background-color:#1b4b54;
+    color: white;
+    padding:10px 0;
+}
+
+header nav{
+    float: right;
+    margin-top:10px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    display: inline;
+    padding:0 20px;
+    font-weight:bold;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color:#F4B41A;
+}
+
+#caption{
+    float:left;
+}
+
+#caption h1{
+    margin:0;
+}
+
+header .logo-gold{
+    color:#F4B41A;
+}
+
+#hero{
+    min-height:500px;
+    background-image:url(kk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h4{
+    font-size: 25px;
+    margin-top: 160px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#hero h1{
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #F4B41A;
+    font-family: 'Dancing Script', cursive;
+}
+#hero button{
+    font-size: 19px;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:1px solid black;
+    color: #1b4b54;
+    display: Flex;
+    align-items: center;
+    margin: auto;
+}
+#hero button:hover{
+    background-color: #1b4b54;
+    color:white;
+    border: 1px solid #F4B41A;
+    
+}
+#seprate{
+    padding:5px;
+    background-color: #1b4b54;
+}
+
+#about{
+    padding: 120px 0px;
+    background-color: white;
+}
+
+#about h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1b4b54;
+}
+.about-box1{
+    width: 20%;
+    float: left;
+    padding: 12px;
+}
+.about-box1 img{
+    display:block;
+    margin: auto;
+}
+
+.about-box2{
+    font-size: 60%;
+    float: right;
+    padding:10px;
+    text-align: justify;
+
+}
+#about button{
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid green;
+    color:#1b4b54 ;
+    font-weight: bold;
+    padding:8px,20px;
+}
+#about button:hover{
+    background-color: #1b4b54;
+    color: aliceblue;
+    border: wheat;
+
+}
